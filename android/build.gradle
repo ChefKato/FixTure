@@ -1,0 +1,18 @@
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        // Make sure you are using a compatible version of Gradle Plugin
+        classpath 'com.android.tools.build:gradle:4.1.0'  // Adjust this as per your Flutter version
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
